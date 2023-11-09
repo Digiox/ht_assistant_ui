@@ -1,0 +1,42 @@
+[
+        {
+            "id": "msg_PJCGVhCxG934oun8my7Wq4HQ",
+            "object": "thread.message",
+            "created_at": 1699492885,
+            "thread_id": "thread_Nl74tTXlqkc2sLYu9eTxUpKa",
+            "role": "assistant",
+            "content": [
+                {
+                    "type": "text",
+                    "text": {
+                        "value": "Bien sûr, je suis là pour vous aider. Afin de vous proposer un produit qui pourrait vous convenir, j'aimerais d'abord savoir si vous avez une préférence particulière parmi les catégories suivantes :\n\n1. Produits pour la stimulation de la prostate\n2. Produits pour le pénis (par exemple des anneaux péniens, des masturbateurs, ou des pompes à pénis)\n3. Produits d'hygiène et de bien-être intime pour hommes\n\nSi l'une de ces catégories vous intéresse plus particulièrement, faites-le moi savoir. Sinon, je pourrai vous proposer une option populaire de chaque catégorie.",
+                        "annotations": []
+                    }
+                }
+            ],
+            "file_ids": [],
+            "assistant_id": "asst_3VA5GMNxMQawEymkVhTbaLAE",
+            "run_id": "run_hRd5Ybud5hDXKGQUlMatYTn6",
+            "metadata": {}
+        },
+        {
+            "id": "msg_Cg035a9tZQizzRHN4dfNOojv",
+            "object": "thread.message",
+            "created_at": 1699492884,
+            "thread_id": "thread_Nl74tTXlqkc2sLYu9eTxUpKa",
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": {
+                        "value": "propose moi un produit pour homme",
+                        "annotations": []
+                    }
+                }
+            ],
+            "file_ids": [],
+            "assistant_id": null,
+            "run_id": null,
+            "metadata": {}
+        }
+    ]

@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
+/* styles.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-container {
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.chat-container-user {
+  width: 50vw;
+  border-right: 1px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: relative;
+}
+
+
+
+.chat-container-assistant {
+  width: 50vw;
+  border-left: 1px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: relative;
+}
+.user-input-container {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 2px;
+  width: 90%;
+  min-height: 25px;
+  z-index: 2;
+  background-color: #f0e6ef;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.user-input {
+  
+  width: 90%;
+  min-height: 25px;
+  white-space: pre-wrap;
+ 
+  background-color: #f0e6ef;
+  border: none;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.send-button {
+  border: none;
+  background-color: transparent;
+}
+.send-button:hover {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.message {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.user-message {
+  background-color: #f0e6ef;
+  text-align: left;
+}
+
+.assistant-message {
+  background-color: #f0e6ef;
+  text-align: left;
+}
+
+.product-display {
+  /* Style pour le display produit */
+}
+
+.product-display img {
+  max-width: 100%;
+  height: auto;
 }
