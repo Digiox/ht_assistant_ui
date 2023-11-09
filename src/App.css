@@ -85,3 +85,8 @@
   max-width: 100%;
   height: auto;
 }
+
+.loading-animation{
+  position: absolute;
+  bottom: 20px
+}
